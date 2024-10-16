@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Single_Cycle">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Single_Cycle|LSU:LSU|Data_memory:Data_memory|user_ram:bank0|altsyncram:ram_rtl_0" CBX_FILE_NAME="altsyncram_m2j1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Single_Cycle|LSU:LSU|Data_memory:Data_memory|user_ram:bank1|altsyncram:ram_rtl_0" CBX_FILE_NAME="altsyncram_m2j1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Single_Cycle|LSU:LSU|Data_memory:Data_memory|user_ram:bank2|altsyncram:ram_rtl_0" CBX_FILE_NAME="altsyncram_m2j1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Single_Cycle|LSU:LSU|Data_memory:Data_memory|user_ram:bank3|altsyncram:ram_rtl_0" CBX_FILE_NAME="altsyncram_m2j1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

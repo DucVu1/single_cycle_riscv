@@ -1,0 +1,38 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -sv -work work +incdir+//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src {//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src/SMcomparator.sv}
+vlog -sv -work work +incdir+//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src {//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src/Single_Cycle.sv}
+vlog -sv -work work +incdir+//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src {//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src/register_file.sv}
+vlog -sv -work work +incdir+//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src {//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src/program_counter.sv}
+vlog -sv -work work +incdir+//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src {//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src/PC_incremented.sv}
+vlog -sv -work work +incdir+//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src {//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src/Output_Periph.sv}
+vlog -sv -work work +incdir+//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src {//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src/MUX3_1.sv}
+vlog -sv -work work +incdir+//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src {//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src/MUX2_1.sv}
+vlog -sv -work work +incdir+//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src {//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src/LU_32bit.sv}
+vlog -sv -work work +incdir+//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src {//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src/LU_1bit.sv}
+vlog -sv -work work +incdir+//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src {//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src/LSU.sv}
+vlog -sv -work work +incdir+//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src {//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src/LED.sv}
+vlog -sv -work work +incdir+//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src {//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src/LCD.sv}
+vlog -sv -work work +incdir+//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src {//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src/Input_Periph.sv}
+vlog -sv -work work +incdir+//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src {//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src/Immediate_generator.sv}
+vlog -sv -work work +incdir+//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src {//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src/HEX.sv}
+vlog -sv -work work +incdir+//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src {//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src/FA_32bit.sv}
+vlog -sv -work work +incdir+//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src {//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src/FA_1bit.sv}
+vlog -sv -work work +incdir+//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src {//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src/Data_memory.sv}
+vlog -sv -work work +incdir+//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src {//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src/ControlUnit.sv}
+vlog -sv -work work +incdir+//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src {//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src/CLA_16bit.sv}
+vlog -sv -work work +incdir+//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src {//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src/CLA_4bit.sv}
+vlog -sv -work work +incdir+//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src {//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src/brcomp.sv}
+vlog -sv -work work +incdir+//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src {//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src/barrel_shifter_right_32.sv}
+vlog -sv -work work +incdir+//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src {//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src/barrel_shifter_left_32.sv}
+vlog -sv -work work +incdir+//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src {//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src/barrel_shifter_32.sv}
+vlog -sv -work work +incdir+//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src {//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src/AU.sv}
+vlog -sv -work work +incdir+//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src {//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src/ALU_Control.sv}
+vlog -sv -work work +incdir+//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src {//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src/ALU.sv}
+vlog -sv -work work +incdir+//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src {//wsl.localhost/Ubuntu-22.04/home/vuminhduc/lab_computer/Single_cycle/Single_Cycle/src/Instruction_Memory.sv}
+

@@ -1,0 +1,6 @@
+Info (10281): Verilog HDL Declaration information at Single_Cycle.sv(19): object "pc" differs only in case from object "PC" in the same scope
+Info (10281): Verilog HDL Declaration information at Data_memory.sv(4): object "addr" differs only in case from object "ADDR" in the same scope
+Info (10281): Verilog HDL Declaration information at CLA_16bit.sv(4): object "p" differs only in case from object "P" in the same scope
+Info (10281): Verilog HDL Declaration information at CLA_16bit.sv(4): object "g" differs only in case from object "G" in the same scope
+Info (10281): Verilog HDL Declaration information at CLA_4bit.sv(4): object "p" differs only in case from object "P" in the same scope
+Info (10281): Verilog HDL Declaration information at CLA_4bit.sv(4): object "g" differs only in case from object "G" in the same scope

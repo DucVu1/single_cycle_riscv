@@ -1,0 +1,287 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do Single_Cycle_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -sv -work work +incdir+C:/Users/Duc/A\ PLACE\ HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src {C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/user_ram.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module user_ram
+# 
+# Top level modules:
+# 	user_ram
+# vlog -sv -work work +incdir+C:/Users/Duc/A\ PLACE\ HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src {C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/SMcomparator.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module SMcomparator
+# 
+# Top level modules:
+# 	SMcomparator
+# vlog -sv -work work +incdir+C:/Users/Duc/A\ PLACE\ HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src {C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/Single_Cycle.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Single_Cycle
+# 
+# Top level modules:
+# 	Single_Cycle
+# vlog -sv -work work +incdir+C:/Users/Duc/A\ PLACE\ HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src {C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/register_file.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module register_file
+# 
+# Top level modules:
+# 	register_file
+# vlog -sv -work work +incdir+C:/Users/Duc/A\ PLACE\ HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src {C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/program_counter.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module program_counter
+# 
+# Top level modules:
+# 	program_counter
+# vlog -sv -work work +incdir+C:/Users/Duc/A\ PLACE\ HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src {C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/PC_incremented.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module PC_incremented
+# 
+# Top level modules:
+# 	PC_incremented
+# vlog -sv -work work +incdir+C:/Users/Duc/A\ PLACE\ HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src {C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/Output_Periph.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Output_Periph
+# 
+# Top level modules:
+# 	Output_Periph
+# vlog -sv -work work +incdir+C:/Users/Duc/A\ PLACE\ HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src {C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/MUX3_1.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MUX3_1
+# 
+# Top level modules:
+# 	MUX3_1
+# vlog -sv -work work +incdir+C:/Users/Duc/A\ PLACE\ HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src {C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/MUX2_1.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module MUX2_1
+# 
+# Top level modules:
+# 	MUX2_1
+# vlog -sv -work work +incdir+C:/Users/Duc/A\ PLACE\ HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src {C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/LU_32bit.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module LU_32bit
+# 
+# Top level modules:
+# 	LU_32bit
+# vlog -sv -work work +incdir+C:/Users/Duc/A\ PLACE\ HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src {C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/LU_1bit.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module LU_1bit
+# 
+# Top level modules:
+# 	LU_1bit
+# vlog -sv -work work +incdir+C:/Users/Duc/A\ PLACE\ HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src {C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/LSU.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module LSU
+# 
+# Top level modules:
+# 	LSU
+# vlog -sv -work work +incdir+C:/Users/Duc/A\ PLACE\ HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src {C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/LED.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module LED
+# 
+# Top level modules:
+# 	LED
+# vlog -sv -work work +incdir+C:/Users/Duc/A\ PLACE\ HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src {C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/LCD.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module LCD
+# 
+# Top level modules:
+# 	LCD
+# vlog -sv -work work +incdir+C:/Users/Duc/A\ PLACE\ HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src {C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/Input_Periph.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Input_Periph
+# 
+# Top level modules:
+# 	Input_Periph
+# vlog -sv -work work +incdir+C:/Users/Duc/A\ PLACE\ HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src {C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/Immediate_generator.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Immediate_generator
+# 
+# Top level modules:
+# 	Immediate_generator
+# vlog -sv -work work +incdir+C:/Users/Duc/A\ PLACE\ HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src {C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/HEX.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module HEX
+# 
+# Top level modules:
+# 	HEX
+# vlog -sv -work work +incdir+C:/Users/Duc/A\ PLACE\ HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src {C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/FA_32bit.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module FA_32bit
+# 
+# Top level modules:
+# 	FA_32bit
+# vlog -sv -work work +incdir+C:/Users/Duc/A\ PLACE\ HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src {C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/FA_1bit.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module FA_1bit
+# 
+# Top level modules:
+# 	FA_1bit
+# vlog -sv -work work +incdir+C:/Users/Duc/A\ PLACE\ HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src {C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/dff_user.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module dff_user
+# 
+# Top level modules:
+# 	dff_user
+# vlog -sv -work work +incdir+C:/Users/Duc/A\ PLACE\ HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src {C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/Data_memory.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Data_memory
+# 
+# Top level modules:
+# 	Data_memory
+# vlog -sv -work work +incdir+C:/Users/Duc/A\ PLACE\ HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src {C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/ControlUnit.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ControlUnit
+# 
+# Top level modules:
+# 	ControlUnit
+# vlog -sv -work work +incdir+C:/Users/Duc/A\ PLACE\ HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src {C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/clock_divider.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module clock_divider
+# 
+# Top level modules:
+# 	clock_divider
+# vlog -sv -work work +incdir+C:/Users/Duc/A\ PLACE\ HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src {C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/CLA_16bit.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module CLA_16bit
+# 
+# Top level modules:
+# 	CLA_16bit
+# vlog -sv -work work +incdir+C:/Users/Duc/A\ PLACE\ HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src {C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/CLA_4bit.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module CLA_4bit
+# 
+# Top level modules:
+# 	CLA_4bit
+# vlog -sv -work work +incdir+C:/Users/Duc/A\ PLACE\ HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src {C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/brcomp.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module brcomp
+# 
+# Top level modules:
+# 	brcomp
+# vlog -sv -work work +incdir+C:/Users/Duc/A\ PLACE\ HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src {C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/barrel_shifter_right_32.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module barrel_shifter_right_32
+# 
+# Top level modules:
+# 	barrel_shifter_right_32
+# vlog -sv -work work +incdir+C:/Users/Duc/A\ PLACE\ HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src {C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/barrel_shifter_left_32.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module barrel_shifter_left_32
+# 
+# Top level modules:
+# 	barrel_shifter_left_32
+# vlog -sv -work work +incdir+C:/Users/Duc/A\ PLACE\ HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src {C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/barrel_shifter_32.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module barrel_shifter_32
+# 
+# Top level modules:
+# 	barrel_shifter_32
+# vlog -sv -work work +incdir+C:/Users/Duc/A\ PLACE\ HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src {C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/AU.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module AU
+# 
+# Top level modules:
+# 	AU
+# vlog -sv -work work +incdir+C:/Users/Duc/A\ PLACE\ HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src {C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/ALU_Control.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALU_Control
+# 
+# Top level modules:
+# 	ALU_Control
+# vlog -sv -work work +incdir+C:/Users/Duc/A\ PLACE\ HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src {C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/ALU.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# vlog -sv -work work +incdir+C:/Users/Duc/A\ PLACE\ HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src {C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/Instruction_Memory.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Instruction_Memory
+# 
+# Top level modules:
+# 	Instruction_Memory
+# 
+vlog -reportprogress 300 -work work {C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/tb/tb_Single_Cycle.sv}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module Single_Cycle_tb
+# 
+# Top level modules:
+# 	Single_Cycle_tb
+vsim work.Single_Cycle_tb
+# vsim work.Single_Cycle_tb 
+# Loading sv_std.std
+# Loading work.Single_Cycle_tb
+# Loading work.Single_Cycle
+# Loading work.MUX2_1
+# Loading work.program_counter
+# Loading work.PC_incremented
+# Loading work.FA_32bit
+# Loading work.Instruction_Memory
+# Loading work.register_file
+# Loading work.brcomp
+# Loading work.SMcomparator
+# Loading work.AU
+# Loading work.CLA_16bit
+# Loading work.Immediate_generator
+# Loading work.ALU
+# Loading work.LU_32bit
+# Loading work.barrel_shifter_32
+# Loading work.barrel_shifter_right_32
+# Loading work.barrel_shifter_left_32
+# Loading work.LSU
+# Loading work.Output_Periph
+# Loading work.HEX
+# Loading work.LED
+# Loading work.LCD
+# Loading work.Data_memory
+# Loading work.user_ram
+# Loading work.Input_Periph
+# Loading work.MUX3_1
+# Loading work.ALU_Control
+# Loading work.ControlUnit
+# Loading work.clock_divider
+# Loading work.dff_user
+# Loading work.FA_1bit
+# Loading work.CLA_4bit
+# Loading work.LU_1bit
+add wave -position insertpoint sim:/Single_Cycle_tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: Duc  Hostname: DESKTOP-G5J7B49  ProcessID: 31704
+# 
+#           Attempting to use alternate WLF file "./wlftibvzj5".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlftibvzj5
+# 
+run
+# Break in Module Single_Cycle_tb at C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/tb/tb_Single_Cycle.sv line 155
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 d\\wsl.localhost\Ubuntu-22.04\home\vuminhduc\lab_computer\Single_cycle\Single_Cycle\quartus\simulation\qsim
+vSingle_Cycle
+Z1 In6<WK^Q;mhc_jDUX3?m=;3
+Z2 VXfdm6Ni@EcgLh]zb7a81V3
+Z3 d\\wsl.localhost\Ubuntu-22.04\home\vuminhduc\lab_computer\Single_cycle\Single_Cycle\quartus\simulation\qsim
+Z4 w1726040758
+Z5 8Single_Cycle.vo
+Z6 FSingle_Cycle.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|Single_Cycle.vo|
+Z9 o-work work -O0
+Z10 n@single_@cycle
+!i10b 1
+Z11 !s100 31ZCf1W:ic0_I6_RFO]z50
+!s85 0
+Z12 !s108 1726040759.791000
+Z13 !s107 Single_Cycle.vo|
+!s101 -O0
+vSingle_Cycle_vlg_check_tst
+!i10b 1
+Z14 !s100 l7ZnBmcG`A`PYK6k^RoQ43
+Z15 I50Izl>]PJ;Vzn@>D2>zj_1
+Z16 V1iEFJ]YC=2leIKJV1n3I=0
+R3
+Z17 w1726040742
+Z18 8Single_Cycle.vt
+Z19 FSingle_Cycle.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z20 !s108 1726040773.123000
+Z21 !s107 Single_Cycle.vt|
+Z22 !s90 -work|work|Single_Cycle.vt|
+!s101 -O0
+R9
+Z23 n@single_@cycle_vlg_check_tst
+vSingle_Cycle_vlg_sample_tst
+!i10b 1
+Z24 !s100 7moM_@YQ82ak2;RNco=Cl3
+Z25 IoHen3h<`3=2^9]lndg`VW2
+Z26 VX=iXdk=?aERSM`c0<k74Y2
+R3
+R17
+R18
+R19
+L0 29
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z27 n@single_@cycle_vlg_sample_tst
+vSingle_Cycle_vlg_vec_tst
+!i10b 1
+Z28 !s100 hjN6^Oi9A>ZHWiIccVikk3
+Z29 Ik@o@9a4::PoLhL]D3flnQ1
+Z30 V0LFhZ6`;]?4FL8R?BJTRD3
+R3
+R17
+R18
+R19
+Z31 L0 4414
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z32 n@single_@cycle_vlg_vec_tst

@@ -1,0 +1,13 @@
+module Input_Periph (
+	input logic clk_i, rst_ni, 
+	input logic [31:0] SW_i,
+	output logic [31:0] ld_data
+);
+
+always_ff @(posedge clk_i,negedge rst_ni) begin 
+	if (!rst_ni)
+		ld_data <= 32'd0;
+	else
+		ld_data <= SW_i;
+end
+endmodule

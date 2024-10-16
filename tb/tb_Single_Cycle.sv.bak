@@ -1,0 +1,142 @@
+module Single_Cycle_tb;
+
+// Testbench signals
+logic clk_i, rst_ni;
+logic [31:0] io_sw;
+logic [7:0] io_lcd;
+logic [8:0] io_ledg;
+logic [17:0] io_ledr;
+logic [6:0] io_hex0, io_hex1, io_hex2, io_hex3, io_hex4, io_hex5, io_hex6, io_hex7;
+logic [31:0] pc_debug, instruc_test, rs1_data, rs2_data, alu_data, wb_data, ld_data;
+
+// Clock generation
+initial begin
+    clk_i = 0;
+    forever #5 clk_i = ~clk_i; // 10-time unit clock period
+end
+// Reset logic
+initial begin
+    rst_ni = 0;
+    #20 rst_ni = 1;  // De-assert reset after 20 time units
+end
+// Open file for output
+integer file;
+initial begin
+   file = $fopen("instruction_log.txt", "w");
+end
+
+// Close file at the end of simulation
+final begin
+    $fclose(file);
+end
+
+// Instantiate the DUT (Device Under Test)
+Single_Cycle DUT (
+    .clk_i(clk_i),
+    .rst_ni(rst_ni),
+    .io_sw(io_sw),
+    .io_lcd(io_lcd),
+    .io_ledg(io_ledg),
+    .io_ledr(io_ledr),
+    .io_hex0(io_hex0),
+    .io_hex1(io_hex1),
+    .io_hex2(io_hex2),
+    .io_hex3(io_hex3),
+    .io_hex4(io_hex4),
+    .io_hex5(io_hex5),
+    .io_hex6(io_hex6),
+    .io_hex7(io_hex7),
+    .pc_debug(pc_debug),
+    .instruc_test(instruc_test),
+    .alu_data(alu_data),
+    .rs1_data(rs1_data), 
+    .rs2_data(rs2_data),
+    .wb_data(wb_data),
+    .ld_data(ld_data)
+);
+
+// Task to decode the instruction and print details
+task print_instruction;
+    input [31:0] instruction;
+    input [31:0] pc;
+    reg [4:0] rs1, rs2, rd;
+    reg [6:0] opcode;
+    reg [2:0] funct3;
+    reg [6:0] funct7;
+    reg [31:0] imm;
+    reg [31:0] mem_value;
+
+    begin
+        // Decode instruction fields
+        opcode = instruction[6:0];
+        rd = instruction[11:7];
+        funct3 = instruction[14:12];
+        rs1 = instruction[19:15];
+        rs2 = instruction[24:20];
+        funct7 = instruction[31:25];
+
+        // For simplicity, assume the data values (connected to actual regfile/memory in real case)
+        mem_value = 0; // Placeholder
+
+        // Determine instruction type
+        case (opcode)
+            7'b0110011: begin // R-type
+                $fdisplay("Instruction_type: R, Address: 0x%0h, Register_source1: %0d = %08h, Register_source2: %0d = %08h, Register_destination:%0d = %08h", 
+                    pc, rs1, rs1_data, rs2, rs2_data, rd, alu_data);
+            end
+            7'b0010011: begin // I-type
+                imm = {{20{instruction[31]}}, instruction[31:20]}; // Sign-extend immediate
+                $fwrite("Instruction_type: I, Address: 0x%0h, Register_source1: %0d = %08h, Register_destination:%0d = %08h", 
+                    pc, rs1, rs1_data, rd, alu_data);
+            end
+            7'b0000011: begin // Load-type
+                imm = {{20{instruction[31]}}, instruction[31:20]}; // Sign-extend immediate
+                $fwrite("Instruction_type: Load, Address: 0x%0h, Register_destination:%0d = %08h, Memory: %0h, Value: %08h", 
+                    pc,  rd, wb_data, alu_data, ld_data);
+            end
+            7'b0100011: begin // S-type (Store)
+                imm = {{20{instruction[31]}}, instruction[31:25], instruction[11:7]}; // S-type immediate
+                $fwrite("Instruction_type: S, Address: 0x%0h, Register_source2: %0d = %08h, Memory: 0x%0h, Value: %08h", 
+                    pc,rs2, rs2_data, alu_data, ld_data);
+            end
+            7'b1100011: begin // B-type (Branch)
+                imm = {{19{instruction[31]}}, instruction[7], instruction[30:25], instruction[11:8], 1'b0}; // B-type immediate
+                $fwrite("Instruction_type: B, Address: 0x%0h, Register_source1: %0d = %08h, Register_source2: %0d = %08h", 
+                    pc, rs1, rs1_data, rs2, rs2_data);
+            end
+            7'b0110111: begin // U-type (LUI)
+                imm = {instruction[31:12], 12'b0}; // Upper immediate
+                $fwrite("Instruction_type: U, Address: 0x%0h, Register_destination:%0d = %08h", 
+                    pc, rd, wb_data);
+            end
+            default: begin
+                $display("Unknown instruction type at address: 0x%0h", pc);
+            end
+        endcase
+    end
+endtask
+
+// Print instruction at every clock cycle
+always @(posedge clk_i) begin
+    if (rst_ni) begin
+        print_instruction(instruc_test, pc_debug);
+    end
+end
+
+// Test stimulus
+initial begin
+    // Initialize inputs
+    io_sw = 32'h0;
+    
+    // Wait for reset to de-assert
+    #30;
+    
+    // Apply some test stimulus (you can customize based on your needs)
+    io_sw = 32'hA5A5A5A5;
+    
+    // Simulate for some time
+    #100;
+    $stop;
+end
+
+endmodule

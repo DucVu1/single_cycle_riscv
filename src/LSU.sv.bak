@@ -1,0 +1,28 @@
+module LSU(
+	input logic clk_i, rst_ni, st_en, //st_en 1 = write 0 = read
+	input logic [2:0] funct3,
+	input logic [11:0] addr, 
+	input logic [31:0] st_data, io_sw, 
+	output logic [31:0] ld_data,
+        output logic [7:0] io_lcd, 
+	output logic [8:0] io_ledg,
+        output logic [17:0] io_ledr, 
+	output logic [6:0] io_hex0, io_hex1, io_hex2, io_hex3, io_hex4, io_hex5, io_hex6, io_hex7
+);
+logic [31:0] ld_data_Output_Periph, ld_data_Data, ld_data_Input_Periph;
+logic Output_Periph_en;
+assign Output_Periph_en = addr[11] & ~addr[10] & ~addr[9] & ~addr[8];
+always_comb begin 
+	if (~st_en) begin 
+		case(addr[11:8]) inside
+			4'b0???: ld_data = ld_data_Data;
+			4'b1000: ld_data = ld_data_Output_Periph;
+			4'b1001: ld_data = ld_data_Input_Periph;
+			default: ld_data = 32'd0;
+		endcase
+	end
+end
+Output_Periph Output_Periph(.clk_i(clk_i), .rst_ni(rst_ni), .st_en(st_en & Output_Periph_en), .addr(addr[7:4]), .st_data(st_data[17:0]), .io_hex0(io_hex0), .io_hex1(io_hex1), .io_hex2(io_hex2), .io_hex3(io_hex3), .io_hex4(io_hex4), .io_hex5(io_hex5), .io_hex6(io_hex6), .io_hex7(io_hex7), .io_lcd(io_lcd), .io_ledg(io_ledg), .io_ledr(io_ledr), .ld_data(ld_data_Output_Periph)); //addr [3:0]
+Data_memory Data_memory(.clk_i(clk_i), .st_en(st_en & ~addr[11]), .funct3(funct3), .st_data(st_data), .addr(addr[10:0]), .ld_data(ld_data_Data));  //addr [11:0]
+Input_Periph Input_Periph(.clk_i(clk_i), .rst_ni(rst_ni), .SW_i(io_sw), .ld_data(ld_data_Input_Periph));
+endmodule

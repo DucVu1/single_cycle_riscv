@@ -1,0 +1,77 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'clock_divider:clock_divier|dff_user:dff1|q'
+Slack : -17.062
+TNS   : -2831.094
+
+Type  : Slow Model Setup 'clk_ram'
+Slack : -12.021
+TNS   : -4476.649
+
+Type  : Slow Model Setup 'clock_divider:clock_divier|dff_user:dff0|q'
+Slack : 0.951
+TNS   : 0.000
+
+Type  : Slow Model Hold 'clk_ram'
+Slack : -2.540
+TNS   : -2.540
+
+Type  : Slow Model Hold 'clock_divider:clock_divier|dff_user:dff0|q'
+Slack : -0.681
+TNS   : -0.681
+
+Type  : Slow Model Hold 'clock_divider:clock_divier|dff_user:dff1|q'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'clk_ram'
+Slack : -1.627
+TNS   : -1408.108
+
+Type  : Slow Model Minimum Pulse Width 'clock_divider:clock_divier|dff_user:dff1|q'
+Slack : -0.500
+TNS   : -236.000
+
+Type  : Slow Model Minimum Pulse Width 'clock_divider:clock_divier|dff_user:dff0|q'
+Slack : -0.500
+TNS   : -1.000
+
+Type  : Fast Model Setup 'clock_divider:clock_divier|dff_user:dff1|q'
+Slack : -6.863
+TNS   : -1135.346
+
+Type  : Fast Model Setup 'clk_ram'
+Slack : -4.613
+TNS   : -1749.156
+
+Type  : Fast Model Setup 'clock_divider:clock_divier|dff_user:dff0|q'
+Slack : 0.774
+TNS   : 0.000
+
+Type  : Fast Model Hold 'clk_ram'
+Slack : -1.584
+TNS   : -1.584
+
+Type  : Fast Model Hold 'clock_divider:clock_divier|dff_user:dff0|q'
+Slack : -0.394
+TNS   : -0.394
+
+Type  : Fast Model Hold 'clock_divider:clock_divier|dff_user:dff1|q'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'clk_ram'
+Slack : -1.627
+TNS   : -1408.108
+
+Type  : Fast Model Minimum Pulse Width 'clock_divider:clock_divier|dff_user:dff1|q'
+Slack : -0.500
+TNS   : -236.000
+
+Type  : Fast Model Minimum Pulse Width 'clock_divider:clock_divier|dff_user:dff0|q'
+Slack : -0.500
+TNS   : -1.000
+
+------------------------------------------------------------

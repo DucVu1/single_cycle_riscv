@@ -1,0 +1,811 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Duc\A PLACE HOLDER\University\Computer_Organization\project\RISCV\Single_Cycle_New_Mapping\quartus\simulation\modelsim
+vALU
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+I4Ek;^W>ZMRCDkJ:<A83HT3
+V<IXnb:4gHk4f_TCjdOhk23
+S1
+Z2 dC:\Users\Duc\A PLACE HOLDER\University\Computer_Organization\project\RISCV\Single_Cycle_New_Mapping\quartus\simulation\modelsim
+Z3 w1728891049
+8C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/ALU.sv
+FC:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/ALU.sv
+L0 1
+Z4 OV;L;10.1d;51
+r1
+31
+Z5 o-sv -work work -O0
+Z6 !s92 -sv -work work {+incdir+C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src} -O0
+n@a@l@u
+!i10b 1
+!s100 =_d3BhRRo<eJhQghf7RO=3
+!s105 ALU_sv_unit
+!s85 0
+!s108 1729071886.975000
+!s107 C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/ALU.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src|C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/ALU.sv|
+!s101 -O0
+vALU_Control
+R1
+I::OVFb>Zo^4ilW<z[E`?F1
+V6hRE;0WWPfk]f<78hWjSH1
+S1
+R2
+R3
+8C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/ALU_Control.sv
+FC:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/ALU_Control.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+n@a@l@u_@control
+!i10b 1
+!s100 <<6N4XVN?b]3gdz`G5U6A2
+!s105 ALU_Control_sv_unit
+!s85 0
+!s108 1729071886.281000
+!s107 C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/ALU_Control.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src|C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/ALU_Control.sv|
+!s101 -O0
+vAU
+R1
+I46c;D^og38Q:L?];BJeTd0
+V36aURYH7M0R5ogCSkLi_l2
+S1
+R2
+R3
+8C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/AU.sv
+FC:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/AU.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+n@a@u
+!i10b 1
+!s100 6nDLk5G9hZF_9jCUYEL8`2
+!s105 AU_sv_unit
+!s85 0
+!s108 1729071886.217000
+!s107 C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/AU.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src|C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/AU.sv|
+!s101 -O0
+vbarrel_shifter_32
+R1
+I5l3n[?kP19CX6dmKnk]:k1
+VoIT9]>;oVh`]K4PTVEJah2
+S1
+R2
+R3
+8C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/barrel_shifter_32.sv
+FC:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/barrel_shifter_32.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 PfjVJUiLMB@]9GgRI=mjd2
+!s105 barrel_shifter_32_sv_unit
+!s85 0
+!s108 1729071886.152000
+!s107 C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/barrel_shifter_32.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src|C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/barrel_shifter_32.sv|
+!s101 -O0
+vbarrel_shifter_left_32
+R1
+I]=9QIoMA;IC6GIBB:<Bg?3
+VmQ=UB[NYd:8`^cEf30j4J0
+S1
+R2
+R3
+8C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/barrel_shifter_left_32.sv
+FC:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/barrel_shifter_left_32.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 Cg6A@IR6FmW@dNGIf=jQg2
+!s105 barrel_shifter_left_32_sv_unit
+!s85 0
+!s108 1729071886.086000
+!s107 C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/barrel_shifter_left_32.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src|C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/barrel_shifter_left_32.sv|
+!s101 -O0
+vbarrel_shifter_right_32
+R1
+IadF=Mm5Nj4M0aWnWDJ]_;1
+V12Xh?Nk1BMR[a;H`cEg@21
+S1
+R2
+R3
+8C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/barrel_shifter_right_32.sv
+FC:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/barrel_shifter_right_32.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 MeNcaKi`^h@gWX1I952?V3
+!s105 barrel_shifter_right_32_sv_unit
+!s85 0
+!s108 1729071886.017000
+!s107 C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/barrel_shifter_right_32.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src|C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/barrel_shifter_right_32.sv|
+!s101 -O0
+vbrcomp
+R1
+I?KohMJVGYBmLjlRZ1D;SZ0
+VajU_G1K:z?@aF;2C^cH1m2
+S1
+R2
+R3
+8C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/brcomp.sv
+FC:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/brcomp.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 aS^PM>T5>o9?<;hhNg_aW1
+!s105 brcomp_sv_unit
+!s85 0
+!s108 1729071885.951000
+!s107 C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/brcomp.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src|C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/brcomp.sv|
+!s101 -O0
+vCLA_16bit
+R1
+Id:7JohDR01LQ_U<i4m0oT2
+VX;a<ENk?Nia2GFF<=0dL13
+S1
+R2
+R3
+8C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/CLA_16bit.sv
+FC:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/CLA_16bit.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+n@c@l@a_16bit
+!i10b 1
+!s100 gm9]VI941Nd1SKb<XBhTf2
+!s105 CLA_16bit_sv_unit
+!s85 0
+!s108 1729071885.818000
+!s107 C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/CLA_16bit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src|C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/CLA_16bit.sv|
+!s101 -O0
+vCLA_4bit
+R1
+I3bA8FDUM^>CUS`7Z8mFJE2
+VgEK7L]2jkn>zo_hVF_cXI2
+S1
+R2
+R3
+8C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/CLA_4bit.sv
+FC:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/CLA_4bit.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+n@c@l@a_4bit
+!i10b 1
+!s100 PJ7ICZA96PUB?HVN>_S[V3
+!s105 CLA_4bit_sv_unit
+!s85 0
+!s108 1729071885.883000
+!s107 C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/CLA_4bit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src|C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/CLA_4bit.sv|
+!s101 -O0
+vclock_divider
+R1
+I<X7g:>PeKi2<eEzM6SHf21
+VaSUOg@54TgLD;AX?aeLKI3
+S1
+R2
+w1728837840
+8C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/clock_divider.sv
+FC:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/clock_divider.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 CiGH8gFI3ZY?:8nNE:m:>3
+!s105 clock_divider_sv_unit
+!s85 0
+!s108 1729071885.750000
+!s107 C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/clock_divider.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src|C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/clock_divider.sv|
+!s101 -O0
+vControlUnit
+R1
+Ig1WOcoGFZiBH9ck_9oNB42
+VYSA1WJfX90_HlQKWaANh41
+S1
+R2
+R3
+8C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/ControlUnit.sv
+FC:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/ControlUnit.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+n@control@unit
+!i10b 1
+!s100 E_J294Q9Obn9zWfiI_5dk0
+!s105 ControlUnit_sv_unit
+!s85 0
+!s108 1729071885.683000
+!s107 C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/ControlUnit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src|C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/ControlUnit.sv|
+!s101 -O0
+vData_memory
+R1
+I^NT<5dR;IGaY==lcMVl=E1
+VUTP:AgW73X_;FnA0c@i>S1
+S1
+R2
+w1729066545
+8C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/Data_memory.sv
+FC:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/Data_memory.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+n@data_memory
+!i10b 1
+!s100 0XL3oMZczfaaL<OFn]Q3d3
+!s105 Data_memory_sv_unit
+!s85 0
+!s108 1729071885.609000
+!s107 C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/Data_memory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src|C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/Data_memory.sv|
+!s101 -O0
+vdff_user
+R1
+IXk]ia0mzD?n[gh1hfgN1N0
+VZ`1k`Uc5Y53Zio25c0QIA0
+S1
+R2
+w1728837841
+8C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/dff_user.sv
+FC:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/dff_user.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 hSAJ^61^c9a=Bc4ec1E>Z2
+!s105 dff_user_sv_unit
+!s85 0
+!s108 1729071885.544000
+!s107 C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/dff_user.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src|C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/dff_user.sv|
+!s101 -O0
+vFA_1bit
+R1
+Ij=?IKZ^Yf6BIFEIPHjbkc0
+ViU`DiXT_:7njIU8h6JLnS0
+S1
+R2
+R3
+8C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/FA_1bit.sv
+FC:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/FA_1bit.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+n@f@a_1bit
+!i10b 1
+!s100 X^8gl6gLJZ=1o??gS3GL:0
+!s105 FA_1bit_sv_unit
+!s85 0
+!s108 1729071885.475000
+!s107 C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/FA_1bit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src|C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/FA_1bit.sv|
+!s101 -O0
+vFA_32bit
+R1
+I<[0T;4iU^@>FBC>MkAZT00
+VYoz5lC[^dA4e7QSCiK@aM3
+S1
+R2
+R3
+8C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/FA_32bit.sv
+FC:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/FA_32bit.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+n@f@a_32bit
+!i10b 1
+!s100 9m6nei^GK6N5`Tc0o^_F52
+!s105 FA_32bit_sv_unit
+!s85 0
+!s108 1729071885.403000
+!s107 C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/FA_32bit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src|C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/FA_32bit.sv|
+!s101 -O0
+vHEX
+R1
+IamU^9a_cGKJESNDa?bNfh0
+V3Vo<ge`mRnfV7afINNkhI0
+S1
+R2
+Z7 w1729065539
+8C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/HEX.sv
+FC:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/HEX.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+n@h@e@x
+!i10b 1
+!s100 R4:94AcKdUO;zXg@_7h]B0
+!s105 HEX_sv_unit
+!s85 0
+!s108 1729071885.337000
+!s107 C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/HEX.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src|C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/HEX.sv|
+!s101 -O0
+vImmediate_generator
+R1
+IM]al[Jzj^ADn;AAYN94=43
+VZmKP:Kc8a6RW1gmlQlVc^1
+S1
+R2
+w1729070440
+8C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/Immediate_generator.sv
+FC:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/Immediate_generator.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+n@immediate_generator
+!i10b 1
+!s100 D][]Hl[^azYQ^3TLUkh7J1
+!s105 Immediate_generator_sv_unit
+!s85 0
+!s108 1729071885.273000
+!s107 C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/Immediate_generator.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src|C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/Immediate_generator.sv|
+!s101 -O0
+vInput_Periph
+R1
+Ido2N;c9ZIPP2^`VW4D^hM0
+Vo0;L^W7^`gJ<6j>`^Vm3f2
+S1
+R2
+R7
+8C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/Input_Periph.sv
+FC:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/Input_Periph.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+n@input_@periph
+!i10b 1
+!s100 E>2zghXco>`AC:2idh6J]1
+!s105 Input_Periph_sv_unit
+!s85 0
+!s108 1729071885.204000
+!s107 C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/Input_Periph.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src|C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/Input_Periph.sv|
+!s101 -O0
+vInstruction_Memory
+R1
+I@_ZbjhW5?@59n94AzM1PF1
+VXSQ06Nz6gc:JBX5hBSlE;0
+S1
+R2
+w1729071776
+8C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/Instruction_Memory.sv
+FC:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/Instruction_Memory.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+n@instruction_@memory
+!i10b 1
+!s100 kZN1<a<6W?^S;UGlzRi0l0
+!s105 Instruction_Memory_sv_unit
+!s85 0
+!s108 1729071887.045000
+!s107 C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/Instruction_Memory.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src|C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/Instruction_Memory.sv|
+!s101 -O0
+vLCD
+R1
+I7g7E[Wh@gS_73kR7:Rnnj3
+Vcieg16mRT2VJ55]K@2>1i3
+S1
+R2
+R7
+8C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/LCD.sv
+FC:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/LCD.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+n@l@c@d
+!i10b 1
+!s100 <EeLYVj<_niGN;LNX3aIT0
+!s105 LCD_sv_unit
+!s85 0
+!s108 1729071885.131000
+!s107 C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/LCD.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src|C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/LCD.sv|
+!s101 -O0
+vLED
+R1
+I`>eV1ITlEk0NDNPZmE5S;3
+VQ3UF1PTE1^[^P<Iizhma`1
+S1
+R2
+R7
+8C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/LED.sv
+FC:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/LED.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+n@l@e@d
+!i10b 1
+!s100 Y[MNV^6ihBeC`A^_l108n2
+!s105 LED_sv_unit
+!s85 0
+!s108 1729071885.063000
+!s107 C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/LED.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src|C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/LED.sv|
+!s101 -O0
+vLSU
+R1
+I6Ce_o0_86l4z^niDF69FX3
+Vk?e=Iz?UgQCamcMoE6eB[2
+S1
+R2
+w1729065703
+8C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/LSU.sv
+FC:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/LSU.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+n@l@s@u
+!i10b 1
+!s100 [O6jo^k;ZWPK90>KKJ2_90
+!s105 LSU_sv_unit
+!s85 0
+!s108 1729071884.997000
+!s107 C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/LSU.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src|C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/LSU.sv|
+!s101 -O0
+vLU_1bit
+R1
+IBTCkzmA9>XB0Of1>^DcSJ2
+Vbg4EOXXbm[HA6MK]QDoe@1
+S1
+R2
+R3
+8C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/LU_1bit.sv
+FC:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/LU_1bit.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+n@l@u_1bit
+!i10b 1
+!s100 T4B08De=eAW]7X^an<O<A3
+!s105 LU_1bit_sv_unit
+!s85 0
+!s108 1729071884.925000
+!s107 C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/LU_1bit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src|C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/LU_1bit.sv|
+!s101 -O0
+vLU_32bit
+R1
+IgS::51:oK?SNUYF4kG20g1
+VB9CKMB9V=<JOV9hnCaJ;:1
+S1
+R2
+R3
+8C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/LU_32bit.sv
+FC:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/LU_32bit.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+n@l@u_32bit
+!i10b 1
+!s100 Aa1aKYfj><1STbzZCZdJR2
+!s105 LU_32bit_sv_unit
+!s85 0
+!s108 1729071884.854000
+!s107 C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/LU_32bit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src|C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/LU_32bit.sv|
+!s101 -O0
+vMUX2_1
+R1
+I=`1ZX6KA>^g>G:K[>Q2dj3
+VLVE0B4cI4_m`8o61Gkh7F2
+S1
+R2
+R3
+8C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/MUX2_1.sv
+FC:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/MUX2_1.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+n@m@u@x2_1
+!i10b 1
+!s100 SKK7Kcz^k^W^EJ70?a;d^0
+!s105 MUX2_1_sv_unit
+!s85 0
+!s108 1729071884.772000
+!s107 C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/MUX2_1.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src|C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/MUX2_1.sv|
+!s101 -O0
+vMUX3_1
+R1
+I7gjGMB1IUOTOoPm7cDVnR1
+V5^jo^6cdHi6^oLThWJ<n31
+S1
+R2
+R3
+8C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/MUX3_1.sv
+FC:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/MUX3_1.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+n@m@u@x3_1
+!i10b 1
+!s100 UKX3ROPkP`fJ>?ig?65lR2
+!s105 MUX3_1_sv_unit
+!s85 0
+!s108 1729071884.701000
+!s107 C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/MUX3_1.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src|C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/MUX3_1.sv|
+!s101 -O0
+vOutput_Periph
+R1
+I<4;Q<20[Gk@o>0zm]Z=]Z2
+V:kQN0AS[mj3gASFTF^S_L1
+S1
+R2
+R7
+8C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/Output_Periph.sv
+FC:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/Output_Periph.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+n@output_@periph
+!i10b 1
+!s100 [GG333`Y?NV@2BYPggkLL3
+!s105 Output_Periph_sv_unit
+!s85 0
+!s108 1729071884.635000
+!s107 C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/Output_Periph.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src|C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/Output_Periph.sv|
+!s101 -O0
+vPC_incremented
+R1
+IS2j^m;LW>TeG0l_8W725A1
+V?[hAAOUmRTDbV04gTO8JS2
+S1
+R2
+R3
+8C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/PC_incremented.sv
+FC:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/PC_incremented.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+n@p@c_incremented
+!i10b 1
+!s100 VWk02XIcHiiO:kHcOZ5<V0
+!s105 PC_incremented_sv_unit
+!s85 0
+!s108 1729071884.571000
+!s107 C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/PC_incremented.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src|C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/PC_incremented.sv|
+!s101 -O0
+vprogram_counter
+R1
+IRASWJSJ>hT3h1UEJPoP=j2
+V`MbM?[R;jCEmRcLolW^NX2
+S1
+R2
+R3
+8C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/program_counter.sv
+FC:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/program_counter.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 bRXR8Mm[>9[Vz8BKa;OAi2
+!s105 program_counter_sv_unit
+!s85 0
+!s108 1729071884.512000
+!s107 C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/program_counter.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src|C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/program_counter.sv|
+!s101 -O0
+vregister_file
+R1
+IIoULb9?P`[L^mScBi0>SB0
+V7NUYMEE:M_3eeiiV>25Bb3
+S1
+R2
+w1728891239
+8C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/register_file.sv
+FC:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/register_file.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 8CnXmLPioCBMA:C=8hlZS1
+!s105 register_file_sv_unit
+!s85 0
+!s108 1729071884.457000
+!s107 C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/register_file.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src|C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/register_file.sv|
+!s101 -O0
+vSingle_Cycle
+R1
+IM]a`?H1B9n]>h?CKDfQMK2
+VO><mDOCF6jnci1FfGdgnc2
+S1
+R2
+w1729065923
+8C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/Single_Cycle.sv
+FC:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/Single_Cycle.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+n@single_@cycle
+!i10b 1
+!s100 _<6k^0^=1hI0]J;SVfZQa3
+!s105 Single_Cycle_sv_unit
+!s85 0
+!s108 1729071884.399000
+!s107 C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/Single_Cycle.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src|C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/Single_Cycle.sv|
+!s101 -O0
+vSingle_Cycle_tb
+R1
+!i10b 1
+!s100 X6SbHM[z1H8h_H=>UPXah1
+IRl=l>cNAC3AJEU]aZG@lj2
+V=ga9P>2TGXeKIfk^MA4:W1
+!s105 tb_Single_Cycle_sv_unit
+S1
+R2
+w1729066456
+8C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/tb/tb_Single_Cycle.sv
+FC:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/tb/tb_Single_Cycle.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1729071891.961000
+!s107 C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/tb/tb_Single_Cycle.sv|
+!s90 -reportprogress|300|-work|work|C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/tb/tb_Single_Cycle.sv|
+!s101 -O0
+o-work work -O0
+n@single_@cycle_tb
+vSMcomparator
+R1
+I1=zf<o3:`QU<igF9lDoKP2
+VT;ll_zLdz^<]=H:ZiQFI;1
+S1
+R2
+R3
+8C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/SMcomparator.sv
+FC:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/SMcomparator.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+n@s@mcomparator
+!i10b 1
+!s100 YD3U[^_XPLPg30@c1TKdi0
+!s105 SMcomparator_sv_unit
+!s85 0
+!s108 1729071884.338000
+!s107 C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/SMcomparator.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src|C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/SMcomparator.sv|
+!s101 -O0
+vuser_ram
+R1
+I7>CRC0Ded]R`;VfnF[bKH2
+V:g6LTn_E?RSFfiDf]=3Zc1
+S1
+R2
+w1728891386
+8C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/user_ram.sv
+FC:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/user_ram.sv
+L0 1
+R4
+r1
+31
+R5
+R6
+!i10b 1
+!s100 3KB5L8OUn?>RKHO0on>Z>3
+!s105 user_ram_sv_unit
+!s85 0
+!s108 1729071884.260000
+!s107 C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/user_ram.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src|C:/Users/Duc/A PLACE HOLDER/University/Computer_Organization/project/RISCV/Single_Cycle_New_Mapping/src/user_ram.sv|
+!s101 -O0

@@ -1,0 +1,41 @@
+Instruction_type: I, Address: 0x0, Register_source1: 27 = 00000000, Register_destination: 16 = 00000014
+Instruction_type: B, Address: 0x4, Register_source1: 24 = 00000000, Register_source2: 24 = 00000000
+Instruction_type: B, Address: 0x8, Register_source1: 24 = 00000000, Register_source2: 20 = 00000000
+Instruction_type: I, Address: 0x40, Register_source1: 24 = 00000000, Register_destination: 27 = 00000033
+Instruction_type: R, Address: 0x44, Register_source1: 16 = 00000014, Register_source2: 20 = 00000000, Register_destination: 24 = 00000000
+Instruction_type: B, Address: 0x48, Register_source1: 24 = 00000000, Register_source2: 24 = 00000000
+Instruction_type: B, Address: 0x4c, Register_source1: 20 = 00000000, Register_source2: 24 = 00000000
+Instruction_type: S, Address: 0x78, Register_source2: 16 = 00000014, Memory: 0x2c
+Instruction_type: L, Address: 0x7c, Register_destination: 20 = 00000014, Memory: 0x2c        20
+Instruction_type: R, Address: 0x80, Register_source1: 24 = 00000000, Register_source2: 27 = 00000033, Register_destination: 16 = 00000000
+Instruction_type: S, Address: 0x84, Register_source2: 20 = 00000014, Memory: 0xd8
+Instruction_type: R, Address: 0x88, Register_source1: 24 = 00000000, Register_source2: 24 = 00000000, Register_destination: 20 = 00000000
+Instruction_type: R, Address: 0x8c, Register_source1: 20 = 00000000, Register_source2: 20 = 00000000, Register_destination: 24 = 00000000
+Instruction_type: U, Address: 0x90, Register_destination: 16 = 000ae000
+Instruction_type: B, Address: 0x94, Register_source1: 24 = 00000000, Register_source2: 27 = 00000033
+Instruction_type: I, Address: 0xcc, Register_source1: 24 = 00000000, Register_destination: 27 = 00000000
+Instruction_type: R, Address: 0xd0, Register_source1: 16 = 000ae000, Register_source2: 24 = 00000000, Register_destination: 24 = 00000000
+Instruction_type: R, Address: 0xd4, Register_source1: 24 = 00000000, Register_source2: 16 = 000ae000, Register_destination: 24 = 00000000
+Instruction_type: S, Address: 0xd8, Register_source2: 20 = 00000000, Memory: 0xf2
+Instruction_type: R, Address: 0xdc, Register_source1: 27 = 00000000, Register_source2: 24 = 00000000, Register_destination: 27 = 00000000
+Instruction_type: U, Address: 0xe0, Register_destination: 20 = 00075000
+Instruction_type: B, Address: 0xe4, Register_source1: 27 = 00000000, Register_source2: 16 = 000ae000
+Instruction_type: I, Address: 0xf8, Register_source1: 27 = 00000000, Register_destination: 27 = 00000001
+Instruction_type: I, Address: 0xfc, Register_source1: 24 = 00000000, Register_destination: 20 = 00000000
+Instruction_type: R, Address: 0x100, Register_source1: 27 = 00000001, Register_source2: 24 = 00000000, Register_destination: 27 = 00000001
+Instruction_type: I, Address: 0x104, Register_source1: 24 = 00000000, Register_destination: 16 = 00000000
+Instruction_type: B, Address: 0x108, Register_source1: 24 = 00000000, Register_source2: 27 = 00000001
+Instruction_type: S, Address: 0x154, Register_source2: 27 = 00000001, Memory: 0xd0
+Instruction_type: I, Address: 0x158, Register_source1: 24 = 00000000, Register_destination: 16 = 00000000
+Instruction_type: B, Address: 0x15c, Register_source1: 24 = 00000000, Register_source2: 27 = 00000001
+Instruction_type: S, Address: 0x180, Register_source2: 24 = 00000000, Memory: 0x9c
+Instruction_type: R, Address: 0x184, Register_source1: 24 = 00000000, Register_source2: 20 = 00000000, Register_destination: 24 = 00000000
+Instruction_type: R, Address: 0x188, Register_source1: 24 = 00000000, Register_source2: 27 = 00000001, Register_destination: 24 = 00000001
+Instruction_type: I, Address: 0x18c, Register_source1: 20 = 00000000, Register_destination: 24 = 00000030
+Unknown instruction type at address: 0x190
+Unknown instruction type at address: 0x194
+Unknown instruction type at address: 0x198
+Unknown instruction type at address: 0x19c
+Unknown instruction type at address: 0x1a0
+Unknown instruction type at address: 0x1a4
+Unknown instruction type at address: 0x1a8
