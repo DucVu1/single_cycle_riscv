@@ -5,7 +5,7 @@ module Single_Cycle (
    output logic [7:0]  o_io_ledg,
 	output logic [16:0] o_io_ledr,
    output logic [6:0]  o_io_hex0, o_io_hex1, o_io_hex2, o_io_hex3, o_io_hex4, o_io_hex5, o_io_hex6, o_io_hex7,
-	output logic [31:0] rs1_data, rs2_data, pc_debug, instruc_test, wb_data, alu_data , ld_data,r26, r25,
+	output logic [31:0] rs1_data, rs2_data, pc_debug, instruc_test, wb_data, alu_data , ld_data, r16, r25, imm,
 	//output logic [1:0] byte_align,
 	output logic clk_i
 );
@@ -16,7 +16,7 @@ logic [6:0] Opcode;
 logic [2:0] funct3;
 logic [3:0] Operation;
 logic [4:0] rs1_addr, rs2_addr, rd_addr;
-logic [31:0] nxt_pc, pc, pc_four, instr, imm, operand_a, operand_b;
+logic [31:0] nxt_pc, pc, pc_four, instr, operand_a, operand_b;
 assign pc_debug = pc;
 assign instruc_test = instr;
 MUX2_1 PC_MUX(.A(pc_four), .B(alu_data), .Option(br_sel), .Out(nxt_pc));
@@ -32,7 +32,7 @@ assign rs2_addr = instr[24:20];
 assign rd_addr = instr[11:7];
 assign Opcode = instr[6:0];
 assign funct3 = instr[14:12];
-register_file register_file(.r26(r26), .r25(r25),.clk_i(clk_i), .rd_wren(rd_wren), .rd_addr(rd_addr), .rs1_addr(rs1_addr), .rs2_addr(rs2_addr), .rd_data(wb_data), .rs1_data(rs1_data), .rs2_data(rs2_data));
+register_file register_file(.r16(r16), .r25(r25),.clk_i(clk_i), .rd_wren(rd_wren), .rd_addr(rd_addr), .rs1_addr(rs1_addr), .rs2_addr(rs2_addr), .rd_data(wb_data), .rs1_data(rs1_data), .rs2_data(rs2_data));
 
 brcomp brcom(.rs1_data(rs1_data), .rs2_data(rs2_data), .funct3(funct3), .Branch(Branch));
 

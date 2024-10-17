@@ -3,7 +3,7 @@ module Instruction_Memory(
   output logic [31:0] instruction    // Output instruction
 );
 
-  logic [7:0] inst_mem [399:0]; // Instruction memory with 88 bytes of storage
+  logic [7:0] inst_mem [471:0]; // Instruction memory with 88 bytes of storage
 
   // Load the instructions from an external file using readmemb
   initial begin

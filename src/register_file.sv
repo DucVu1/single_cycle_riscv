@@ -3,7 +3,7 @@ module register_file #(parameter DATA_N = 32, SIZE = 32)
     input logic clk_i, rd_wren,
     input logic [4:0] rd_addr, rs1_addr, rs2_addr,
     input logic [DATA_N-1:0] rd_data,
-    output logic [DATA_N-1:0] rs1_data, rs2_data, r26, r25
+    output logic [DATA_N-1:0] rs1_data, rs2_data, r16, r25
 );
 logic [4:0] ignor_regs = 5'd0;
 logic [DATA_N-1:0] regs [0:SIZE-1];
@@ -12,7 +12,7 @@ logic [DATA_N-1:0] regs [0:SIZE-1];
 initial begin
 	for(int i = 0; i<32; i++) begin 
 		if(i == 11) 
-			regs[i] = 32'd1;
+			regs[i] = 32'd0;
 		else
 			regs[i] = 32'd0;
 			end
@@ -25,7 +25,7 @@ always_ff @(posedge clk_i) begin
 end
 assign rs1_data = regs[rs1_addr];
 assign rs2_data = regs[rs2_addr];
-assign r26 = regs[5'd26];
+assign r16 = regs[5'd16];
 assign r25 = regs[5'd25];
 
 endmodule

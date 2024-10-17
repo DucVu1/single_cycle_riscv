@@ -12,7 +12,7 @@ always_comb begin
 			rd_wren = 1'b1;
 		  	op_a_sel = 1'b0;
 			op_b_sel = 1'b1; //choose immediate value
-			alu_op = 2'b01; //choose addition
+			alu_op = 2'b00; //choose addition
 			mem_wren = 1'b0; //read
 			wb_sel = 2'b10; //choose ld_data
 		end
@@ -22,7 +22,7 @@ always_comb begin
 			rd_wren = 1'b0;
 			op_a_sel = 1'b0;
 			op_b_sel = 1'b1;
-			alu_op = 2'b01; //choose addition
+			alu_op = 2'b00; //choose addition
 			mem_wren = 1'b1; //write
 			wb_sel = 2'b11; // dummy value 
 		end
@@ -32,7 +32,7 @@ always_comb begin
 			rd_wren = 1'b1; //write to register
 			op_a_sel = 1'b0;
 			op_b_sel = 1'b0;
-			alu_op = 2'b10;
+			alu_op = 2'b01;
 			mem_wren = 1'b0;
 			wb_sel = 2'b01; //choose alu_data 
 		end
@@ -52,7 +52,7 @@ always_comb begin
 			rd_wren = 1'b1;
 			op_a_sel =1'b0;
 			op_b_sel = 1'b1; //choose immediate value
-			alu_op = 2'b10;
+			alu_op = 2'b10; //choose I instruciton
 			mem_wren = 1'b0;
 			wb_sel = 2'b01; //choose alu_data
 		end
